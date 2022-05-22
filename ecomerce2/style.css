@@ -1,0 +1,39 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    height: auto;
+    width: 100%;
+    gap: 10px;  
+}
+button{
+    padding: 12px 30px 12px 30px;
+    margin: auto;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: brown;   
+}
+#container>div{
+    height: auto;
+    margin-bottom: 10px;
+    width: 280px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+img{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+button:hover{
+    color: brown;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid brown;
+}
+h3{
+    text-align: center;
+}
